@@ -9,6 +9,9 @@
     /* 以下代表透明度为0.5 */
     background: rgba(255,255,255,.5);
 }
-#aside-content .card-widget.card-info, #aside-content .card-widget.card-announcement, #aside-content .card-widget.card-recent-post, #aside-content .card-widget.card-archives, #aside-content .card-widget.card-webinfo, #aside-content .card-widget.card-tags{
+#aside-content .card-widget.card-info, #aside-content .card-widget.card-announcement, #aside-content .card-widget.card-recent-post, #aside-content .card-widget.card-archives, #aside-content .card-widget.card-webinfo, #aside-content .card-widget.card-tags, #aside-content .card-widget{
 	    background: rgba(255,255,255,.7);
+}
+#post{
+	    background: rgba(255,255,255,.8);
 }
