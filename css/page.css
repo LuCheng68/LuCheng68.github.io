@@ -1,0 +1,11 @@
+#page-header { background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0.5); backdrop-filter: saturate(100%) blur(5px); background-image: url("") !important; }
+#page-header.post-bg::before { background-color: rgba(0, 0, 0, 0); }
+#page-header, #web_bg { animation: 1s ease-in-out 0s 1 normal none running imgblur; }
+@keyframes imgblur { 
+  0% { filter: blur(5px); }
+  100% { filter: blur(0px); }
+}
+@-webkit-keyframes imgblur { 
+  0% { filter: blur(5px); }
+  100% { filter: blur(0px); }
+}
